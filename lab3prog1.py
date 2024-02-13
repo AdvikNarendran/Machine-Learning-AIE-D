@@ -1,3 +1,18 @@
+'''Please refer to the “Purchase Data” worksheet of Lab Session1 Data.xlsx. Please load the data 
+and segregate them into 2 matrices A & C (following the nomenclature of AX = C). Do the following 
+activities. 
+• What is the dimensionality of the vector space for this data? 
+• How many vectors exist in this vector space? 
+• What is the rank of Matrix A? 
+• Using Pseudo-Inverse find the cost of each product available for sale.  
+(Suggestion: If you use Python, you can use numpy.linalg.pinv() function to get a 
+pseudo-inverse.) 
+A2. Use the Pseudo-inverse to calculate the model vector X for predicting the cost of the products 
+available with the vendor. 
+A3. Mark all customers (in “Purchase Data” table) with payments above Rs. 200 as RICH and others 
+as POOR. Develop a classifier model to categorize customers into RICH or POOR class based on 
+purchase behavior. '''
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
